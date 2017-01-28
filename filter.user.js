@@ -14,7 +14,7 @@ var Injected=0;
 
 
 function Inject(){
-    console.__originLog('³õÊ¼»¯µ¯Ä»¹ýÂËÆ÷.');
+    console.__originLog('åˆå§‹åŒ–å¼¹å¹•è¿‡æ»¤å™¨.');
     var danmaku=document.getElementById('room-player-video-danmu');
     if(danmaku!=null){
         console.__originLog(danmaku);
@@ -35,7 +35,7 @@ function Inject(){
 
 
 function applyFilter(item){
-    lst=["ÄÔ²Ð","À¬»ø","666"];
+    lst=["è„‘æ®‹","åžƒåœ¾","666"];
     for (var idx in lst){
         if(item.innerHTML.indexOf(lst[val])>=0){
             item.parentNode.removeChild(item);
